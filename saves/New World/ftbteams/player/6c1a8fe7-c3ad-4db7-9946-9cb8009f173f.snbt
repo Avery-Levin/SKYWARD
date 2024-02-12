@@ -1,0 +1,17 @@
+{
+	id: "6c1a8fe7-c3ad-4db7-9946-9cb8009f173f"
+	type: "player"
+	player_name: "CrafterCuber09"
+	ranks: {
+		6c1a8fe7-c3ad-4db7-9946-9cb8009f173f: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "CrafterCuber09"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFB059"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

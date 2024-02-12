@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "145018CC78C1D337"
+	icon: "ftbquests:book"
+	id: "26E8F26DFF90EDB9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome, traveler, to the world of SKYWARD, a modpack on version 1.20.1 centered around space exploration. Here, you will use mods such as Ad Astra in order to conquer the stars around you. SKYWARD is best played as a team against other teams, but can be enjoyed solo or as one big team. Click on the checkmark in order to begin your astral adventures!"]
+			hide_dependent_lines: true
+			icon: "ftbquests:book"
+			id: "4CFFEA2BE27F5609"
+			rewards: [{
+				id: "1039BCBFA24D70E2"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "To the stars!"
+			tasks: [{
+				id: "41A14AC1A9C36818"
+				title: "Welcome to SKYWARD!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Every traveler has got to start somewhere!"]
+			id: "3E056AEECD289CE2"
+			rewards: [{
+				count: 16
+				id: "5858592798A66B50"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			subtitle: "Craft a set of wooden tools"
+			tasks: [
+				{
+					id: "1A1AACEEDA7F40F4"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AC39854BC397494"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "087D0CE968C4554E"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F5700DDEF978A92"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42C6195E334A14A0"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Back to Basics"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Iron is needed throughout all of SKYWARD. Get used to mining a lot of it now, because you'll need it later."]
+			id: "349FDD336F6E8990"
+			tasks: [{
+				count: 32L
+				id: "07E9BE6C177788B4"
+				item: { Count: 16b, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Isn't that Ironic?"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Storage is another integral part of SKYWARD."]
+			id: "782A06AA0B2602E4"
+			rewards: [{
+				id: "7FFAF8D76D33B3F4"
+				item: "ironchests:copper_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Craft a chest and a drawer"
+			tasks: [
+				{
+					id: "3DCE5FAFCF41E917"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "1444E01CE9E07675"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+			]
+			title: "Chest to Impress"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Kill zombies, need I say more?"]
+			id: "2865A4F78E7C7014"
+			rewards: [{
+				id: "0946C157F9E79D51"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6B5B4A37F2707254"
+				title: "In your Heeeeeeadddd"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Future base location question mark question mark?"]
+			id: "37FCFC5210BAAFE4"
+			subtitle: "Find a village"
+			tasks: [{
+				id: "09BDE2C186CD8862"
+				structure: "#minecraft:village"
+				title: "It takes a Village"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			id: "30EC7650695C1ADE"
+			tasks: [
+				{
+					id: "57178B7C0F68FE02"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "35FFE6D60B13D9A5"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "2735D12E0939122B"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+				{
+					id: "38E20B907196F9CE"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "0353650FBC05CBFC"
+					item: "minecraft:cooked_rabbit"
+					type: "item"
+				}
+				{
+					id: "7006BCC39453F889"
+					item: "minecraft:cooked_cod"
+					type: "item"
+				}
+				{
+					id: "46B02C95060DF521"
+					item: "minecraft:cooked_salmon"
+					type: "item"
+				}
+				{
+					id: "615A4FEE5277D1D7"
+					item: "naturalist:cooked_egg"
+					type: "item"
+				}
+				{
+					id: "5A45D27893B9EDF5"
+					item: "naturalist:cooked_duck"
+					type: "item"
+				}
+				{
+					id: "0F9F1F4BC3D0084B"
+					item: "naturalist:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "1E523891CBEB55A3"
+					item: "naturalist:cooked_lizard_tail"
+					type: "item"
+				}
+				{
+					id: "56312B1AB6B82DE8"
+					item: "naturalist:cooked_catfish"
+					type: "item"
+				}
+				{
+					id: "1BFBA62EB13FB63A"
+					item: "naturalist:cooked_bass"
+					type: "item"
+				}
+				{
+					id: "60BC199DA9572F63"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "657190D51646188A"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "66C3F50E3859C792"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "73648D1FBD96965A"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+				{
+					id: "1B14285E392B81C4"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "4D6F943AA25ED098"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+			]
+			title: "Wait, let him Cook"
+			x: -2.5d
+			y: -2.0d
+		}
+	]
+	title: "Getting Started"
+}

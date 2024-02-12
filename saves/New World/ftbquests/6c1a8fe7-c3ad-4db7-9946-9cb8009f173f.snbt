@@ -1,0 +1,17 @@
+{
+	version: 1
+	uuid: "6c1a8fe7c3ad4db799469cb8009f173f"
+	name: "CrafterCuber09#6c1a8fe7"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		6c1a8fe7c3ad4db799469cb8009f173f: {
+			can_edit: 1b
+			chapter_pinned: 1b
+		}
+	}
+}

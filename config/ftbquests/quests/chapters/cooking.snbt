@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking"
+	group: "145018CC78C1D337"
+	id: "488F227C0AB6B31A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["57178B7C0F68FE02"]
+		description: ["Every Traveler gets hungry at some times. Included in this chapter isa amanual on how to keep oneself full."]
+		id: "63075AB7028D3E85"
+		tasks: [{
+			id: "69A145516E1F2400"
+			title: "The Stomach of a Traveler cannot be Quenched"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: 0.0d
+	}]
+	title: "Cooking"
+}

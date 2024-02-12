@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_basic"
+	group: "145018CC78C1D337"
+	id: "40FA451F0138A2B9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["782A06AA0B2602E4"]
+		description: [" In order to be a good traveler, you must be able to store all of your goods corectly. This chapter will teach you the basics of storage that will be applicable in every dimension"]
+		hide_dependency_lines: true
+		icon: "minecraft:chest"
+		id: "7C9AAB7257CD9E02"
+		tasks: [{
+			id: "7235556CAEDA81D7"
+			title: "What's in Store"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Storage: Basic"
+}
