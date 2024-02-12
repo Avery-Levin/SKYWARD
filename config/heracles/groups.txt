@@ -1,1 +1,4 @@
-Main
+Getting Started
+Storage: Basic
+Cooking
+Powered Machinery: Basics

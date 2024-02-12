@@ -1,0 +1,44 @@
+{
+  "settings": {},
+  "tasks": {
+    "41A14AC1A9C36818": {
+      "title": "Welcome to SKYWARD!",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1039BCBFA24D70E2": {
+      "type": "heracles:item",
+      "item": {
+        "id": "heracles:quest_book"
+      }
+    }
+  },
+  "display": {
+    "title": "Welcome to SKYWARD!",
+    "description": [
+      "<h2>To the stars!</h2>",
+      "<hr/>",
+      "<task task=\"41A14AC1A9C36818\" quest=\"4CFFEA2BE27F5609\"/>",
+      "<hr/>",
+      "Welcome, traveler, to the world of SKYWARD, a modpack on version 1.20.1 centered around space exploration. Here, you will use mods such as Ad Astra in order to conquer the stars around you. SKYWARD is best played as a team against other teams, but can be enjoyed solo or as one big team. Click on the checkmark in order to begin your astral adventures!",
+      "<hr/>",
+      "<reward reward=\"1039BCBFA24D70E2\" quest=\"4CFFEA2BE27F5609\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "heracles:quest_book"
+    },
+    "subtitle": {
+      "text": "To the stars!"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

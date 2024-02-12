@@ -1,0 +1,119 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "57178B7C0F68FE02": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace"
+    },
+    "35FFE6D60B13D9A5": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_beef"
+    },
+    "2735D12E0939122B": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_chicken"
+    },
+    "38E20B907196F9CE": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_porkchop"
+    },
+    "0353650FBC05CBFC": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_rabbit"
+    },
+    "7006BCC39453F889": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_cod"
+    },
+    "46B02C95060DF521": {
+      "type": "heracles:item",
+      "item": "minecraft:cooked_salmon"
+    },
+    "615A4FEE5277D1D7": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_egg"
+    },
+    "5A45D27893B9EDF5": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_duck"
+    },
+    "0F9F1F4BC3D0084B": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_venison"
+    },
+    "1E523891CBEB55A3": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_lizard_tail"
+    },
+    "56312B1AB6B82DE8": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_catfish"
+    },
+    "1BFBA62EB13FB63A": {
+      "type": "heracles:item",
+      "item": "naturalist:cooked_bass"
+    },
+    "60BC199DA9572F63": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_chicken_cuts"
+    },
+    "657190D51646188A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_bacon"
+    },
+    "66C3F50E3859C792": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_cod_slice"
+    },
+    "73648D1FBD96965A": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_salmon_slice"
+    },
+    "1B14285E392B81C4": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_mutton_chops"
+    },
+    "4D6F943AA25ED098": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Wait, let him Cook",
+    "description": [
+      "<task task=\"57178B7C0F68FE02\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"35FFE6D60B13D9A5\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"2735D12E0939122B\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"38E20B907196F9CE\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"0353650FBC05CBFC\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"7006BCC39453F889\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"46B02C95060DF521\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"615A4FEE5277D1D7\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"5A45D27893B9EDF5\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"0F9F1F4BC3D0084B\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"1E523891CBEB55A3\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"56312B1AB6B82DE8\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"1BFBA62EB13FB63A\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"60BC199DA9572F63\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"657190D51646188A\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"66C3F50E3859C792\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"73648D1FBD96965A\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"1B14285E392B81C4\" quest=\"30EC7650695C1ADE\"/>",
+      "<task task=\"4D6F943AA25ED098\" quest=\"30EC7650695C1ADE\"/>",
+      "<hr/>",
+      "Don't feel like you have to cook all of these food items. However, you do need to craft a furnace in order to progress into later food quests."
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -80,
+          -64
+        ]
+      }
+    }
+  }
+}

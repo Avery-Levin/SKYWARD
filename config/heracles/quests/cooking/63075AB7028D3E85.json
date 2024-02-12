@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "57178B7C0F68FE02"
+  ],
+  "tasks": {
+    "69A145516E1F2400": {
+      "title": "The Stomach of a Traveler cannot be Quenched",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Stomach of a Traveler cannot be Quenched",
+    "description": [
+      "<task task=\"69A145516E1F2400\" quest=\"63075AB7028D3E85\"/>",
+      "<hr/>",
+      "Every Traveler gets hungry at some times. Included in this chapter isa amanual on how to keep oneself full."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:apple"
+    },
+    "groups": {
+      "Cooking": {
+        "position": [
+          32,
+          0
+        ]
+      }
+    }
+  }
+}

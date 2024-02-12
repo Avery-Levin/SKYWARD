@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "07E9BE6C177788B4": {
+      "type": "heracles:item",
+      "amount": 32,
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Isn't that Ironic?",
+    "description": [
+      "<task task=\"07E9BE6C177788B4\" quest=\"349FDD336F6E8990\"/>",
+      "<hr/>",
+      "Iron is needed throughout all of SKYWARD. Get used to mining a lot of it now, because you'll need it later."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          32
+        ]
+      }
+    }
+  }
+}

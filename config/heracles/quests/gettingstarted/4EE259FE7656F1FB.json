@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "03DC8101814AD847": {
+      "type": "heracles:item",
+      "item": "ad_astra:coal_generator"
+    },
+    "0732F37205E21329": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:bio_generator"
+    },
+    "436A4DFB6D7C428A": {
+      "type": "heracles:item",
+      "item": "mekanismgenerators:heat_generator"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "UNLIMITED POWER!!!!!",
+    "description": [
+      "<task task=\"03DC8101814AD847\" quest=\"4EE259FE7656F1FB\"/>",
+      "<task task=\"0732F37205E21329\" quest=\"4EE259FE7656F1FB\"/>",
+      "<task task=\"436A4DFB6D7C428A\" quest=\"4EE259FE7656F1FB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -80,
+          -32
+        ]
+      }
+    }
+  }
+}

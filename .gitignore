@@ -46,4 +46,6 @@ journeymap
 saves/*
 screenshots/2024-02-12_15.40.43.png
 saves/New World
-.dat
+*.dat
+*.mca
+

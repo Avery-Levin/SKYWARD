@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "3DCE5FAFCF41E917": {
+      "type": "heracles:item",
+      "item": "minecraft:chest"
+    },
+    "1444E01CE9E07675": {
+      "type": "heracles:item",
+      "item": "functionalstorage:oak_1"
+    }
+  },
+  "rewards": {
+    "7FFAF8D76D33B3F4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "ironchests:copper_chest_upgrade"
+      }
+    }
+  },
+  "display": {
+    "title": "Chest to Impress",
+    "description": [
+      "<h2>Craft a chest and a drawer</h2>",
+      "<hr/>",
+      "<task task=\"3DCE5FAFCF41E917\" quest=\"782A06AA0B2602E4\"/>",
+      "<task task=\"1444E01CE9E07675\" quest=\"782A06AA0B2602E4\"/>",
+      "<hr/>",
+      "Storage is another integral part of SKYWARD.",
+      "<hr/>",
+      "<reward reward=\"7FFAF8D76D33B3F4\" quest=\"782A06AA0B2602E4\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a chest and a drawer"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          -32
+        ]
+      }
+    }
+  }
+}

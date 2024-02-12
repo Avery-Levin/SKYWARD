@@ -1,0 +1,64 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "1A1AACEEDA7F40F4": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "7AC39854BC397494": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_shovel"
+    },
+    "087D0CE968C4554E": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_axe"
+    },
+    "6F5700DDEF978A92": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_hoe"
+    },
+    "42C6195E334A14A0": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "rewards": {
+    "5858592798A66B50": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:stone",
+        "count": 16
+      }
+    }
+  },
+  "display": {
+    "title": "Back to Basics",
+    "description": [
+      "<h2>Craft a set of wooden tools</h2>",
+      "<hr/>",
+      "<task task=\"1A1AACEEDA7F40F4\" quest=\"3E056AEECD289CE2\"/>",
+      "<task task=\"7AC39854BC397494\" quest=\"3E056AEECD289CE2\"/>",
+      "<task task=\"087D0CE968C4554E\" quest=\"3E056AEECD289CE2\"/>",
+      "<task task=\"6F5700DDEF978A92\" quest=\"3E056AEECD289CE2\"/>",
+      "<task task=\"42C6195E334A14A0\" quest=\"3E056AEECD289CE2\"/>",
+      "<hr/>",
+      "Every traveler has got to start somewhere!",
+      "<hr/>",
+      "<reward reward=\"5858592798A66B50\" quest=\"3E056AEECD289CE2\"/>"
+    ],
+    "subtitle": {
+      "text": "Craft a set of wooden tools"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          0
+        ]
+      }
+    }
+  }
+}

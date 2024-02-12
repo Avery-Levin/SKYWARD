@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4CFFEA2BE27F5609"
+  ],
+  "tasks": {
+    "09BDE2C186CD8862": {
+      "title": "It takes a Village",
+      "type": "heracles:structure",
+      "structures": "#minecraft:village"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "It takes a Village",
+    "description": [
+      "<h2>Find a village</h2>",
+      "<hr/>",
+      "<task task=\"09BDE2C186CD8862\" quest=\"37FCFC5210BAAFE4\"/>",
+      "<hr/>",
+      "Future base location question mark question mark?"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:structure_block"
+    },
+    "subtitle": {
+      "text": "Find a village"
+    },
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          -64
+        ]
+      }
+    }
+  }
+}
