@@ -174,6 +174,7 @@
 		}
 		{
 			dependencies: ["4CFFEA2BE27F5609"]
+			description: ["Don't feel like you have to cook all of these food items. However, you do need to craft a furnace in order to progress into later food quests."]
 			id: "30EC7650695C1ADE"
 			tasks: [
 				{
@@ -275,6 +276,36 @@
 			title: "Wait, let him Cook"
 			x: -2.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4CFFEA2BE27F5609"]
+			id: "4EE259FE7656F1FB"
+			tasks: [
+				{
+					id: "03DC8101814AD847"
+					item: "ad_astra:coal_generator"
+					type: "item"
+				}
+				{
+					id: "0732F37205E21329"
+					item: "mekanismgenerators:bio_generator"
+					type: "item"
+				}
+				{
+					id: "436A4DFB6D7C428A"
+					item: "mekanismgenerators:heat_generator"
+					type: "item"
+				}
+				{
+					id: "1D398C92AFC9A6D5"
+					max_input: 1000L
+					type: "forge_energy"
+					value: 5000L
+				}
+			]
+			title: "UNLIMITED POWER!!!!!"
+			x: -2.5d
+			y: -1.0d
 		}
 	]
 	title: "Getting Started"

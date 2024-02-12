@@ -9,6 +9,18 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_4_rocket"
+		tag: {
+			BotariumData: {
+				StoredFluids: [{
+					Amount: 3000L
+					Fluid: "ad_astra:fuel"
+				}]
+			}
+		}
+	}
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
