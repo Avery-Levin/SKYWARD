@@ -21,3 +21,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+logs/debug-1.log.gz
+logs/2024-02-12-1.log.gz
+logs/2024-02-12-2.log.gz
+logs/2024-02-12-3.log.gz
+logs/debug-1.log.gz
+logs/debug-2.log.gz
+logs/debug-3.log.gz
+logs/debug-4.log.gz
+logs/debug-5.log.gz
+logs/debug-1.log.gz
+logs/debug-2.log.gz
+logs/debug-3.log.gz
+logs/debug-4.log.gz
+logs/debug-5.log.gz
+logs/
+logs/telemetry/20240212-1.json
+logs/debug-2.log.gz
+logs/debug-3.log.gz
+logs/debug-4.log.gz
+logs/debug-5.log.gz
